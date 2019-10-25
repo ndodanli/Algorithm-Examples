@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author dream                                       
  */
- //NxM matrisi içerisinde 3 hücreye dokunan küçük L ler içermektedir. Bu L
+ /*NxM matrisi içerisinde 3 hücreye dokunan küçük L ler içermektedir. Bu L
 ler tüm yönlerde olabilir. L lerin dokunduğu hucrelerden
 carpimlari en büyük olan sayıyı çıktı olarak veriniz
 5 7 1
@@ -24,7 +24,7 @@ Girdi(Standard Intput):
 integer değerlerini içerecektir.
 Çıktı(Standard Output):
  Sadece çarpımları en büyük L'nin değeri yazdırılacak(integer).
-
+*/
 public class Soru4 {                     //kullanıcıdan aldığım matrisi 2x2 olarak oluşabilecek bütün karelere böldüm, bu kareler içindeki L'leri hesapladım ve daha sonra en büyük L değerini buldum.
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
