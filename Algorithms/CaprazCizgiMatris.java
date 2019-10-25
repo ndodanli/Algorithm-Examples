@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author dream
  */
- //Elimizde N x N bir matris bulunuyor. Matriste sağ üstten aşağıya
+ /*Elimizde N x N bir matris bulunuyor. Matriste sağ üstten aşağıya
 doğru çapraz çizgiler çekiliyor ve bu çizgilerin geçtiği matrislerin elemanları toplanıyor.
 Elemanları toplamı en büyük olan çizginin değerini yazdırınız.
 
@@ -24,7 +24,7 @@ Girdi(Standard Input):
  İlk satır N integer değerini içerecek. Sonraki N satır ise Xi integer sayılarını içerecek.
 Çıktı(Standard Output):
  Sadece en büyük toplam olan integer değer yazdırılacak.
-
+*/
 public class Soru3 {
     public static void main(String[] args) {
         int k=0,geciciJ=1,topla=0,a,max;
