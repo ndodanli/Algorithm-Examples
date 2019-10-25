@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author dream
  */
- // Aslı ve Kerem önemli bir yarışma hakkında birbirleriyle mesajlaşmaktadırlar ve Kerem
+ /* Aslı ve Kerem önemli bir yarışma hakkında birbirleriyle mesajlaşmaktadırlar ve Kerem
 mesajlaşmayı güvenli tutmak istemektedir bu yüzden gönderdiği mesajları kendi
 oluşturduğu bir şifreleme algoritması ile şifreleyerek gönderir. Aslı'ya Kerem'in gönderdiği
 şifreli mesajı çözmesi için bir program yazınız.
@@ -24,7 +24,7 @@ Girdi(Standard Input):
  Klavyeden tek satır string girilecektir ve bu şifrelenmiş mesaj olacaktır.
 Çıktı(Standard Output):
  Şifresi çözülmüş orijinal mesaj yazdırılacaktır.
- 
+ */
 public class Soru1 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
